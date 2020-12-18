@@ -1,0 +1,180 @@
+body{
+	font-family: Gotham;
+	font-size: 16px;
+	color: #666666;
+	margin:0; /*zera todas as margens do site*/
+}
+h2{
+	font-size: 18px;
+	text-align: center; 
+	background-color: #ffdf00;
+	padding: 10px;
+	margin: 0 5px 5px 0;
+}
+
+
+.titulo{
+	float: right;
+	width: 540px;
+
+}
+
+.texto{
+	padding: 5px;
+}
+
+.saiba{
+	text-align: right !important; /* sobrepoe a ordem de outra classe ou id, esquece o resto e faz o que vc mandou*/
+	margin:0;
+}
+
+.saiba a{
+	color: #666;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.saiba a:hover{
+	color: #333;
+	text-decoration: underline;
+}
+.endereco{
+	width:380px;
+	heigh: 80px;
+	float: left;
+	padding: 10px;
+}
+.social{
+	width:400px;
+	heigh: 100px;
+	float: left;
+}
+.contato{
+	width:380px;
+	heigh: 80px;
+	float: left;
+	padding: 10px;
+	text-align: right;
+}
+.copyright{
+	font-size: 12px;
+	float: left;
+
+}
+
+#principal{
+	width: 1200px;
+	height: 1050px;
+	margin: auto;
+}
+
+#menu{
+	width: 1200px;
+	height: 50px;
+	background-color: #03112f;
+	text-align: center;
+	
+
+}
+
+#menu a {
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	width: 130px;
+	height: 35px;
+	padding-top: 15px;
+	font-size: 17px;
+
+}
+#menu a:hover{
+	background-color: #eee;
+	color: #03112f;
+}
+#banner{
+	width: 1200px;
+	height: 400px;
+	background-image: url(../imagens/topo-site-hering.jpg);
+	
+}
+#corpo{
+	width: 1000px;
+	height: 500px;
+	
+	float: left; /*faz com q o objeto aceite alguem ao seu lado*/
+	
+}
+#publi{
+	width: 200px;
+	height: 490px;
+	background-color: #444;
+	float: left;
+	padding: 10px 0;
+}
+#rodape{
+	width: 1200px;
+	height: 100px;
+	background-color: #03112f;
+	color: white;
+	clear: both; /*limpa todas as influencias dos objetos anteriores*/
+}
+
+#cont1{
+	width: 990px;
+	height: 240px;
+	padding: 5px;
+	
+}
+
+#cont1 img{
+	height: 240px;
+	float: left;
+}
+
+#cont1 p{
+	float: left;
+	width: 540px;
+	text-align: justify;
+	margin-left: 20px;
+	line-height: 22px; /*espacamento entre linhas*/
+
+}
+
+
+#cont2{
+	width: 490px;
+	height: 240px;
+	padding: 5px;
+	float: left;
+	
+}
+
+#cont2 img{
+	width: 110px;
+	height: auto;
+	float: left;
+	padding: 0 6.25px;
+}
+
+#cont3{
+	width: 490px;
+	height: 240px;
+	padding: 5px;
+	float: left;
+}
+
+#cont3 p{
+	width: 370px;
+	height: auto;
+	float: left;
+	margin: 0 10px 0 0;
+	
+
+}
+
+#cont3 img{
+	width: 100px;
+	height: auto;
+	float: left;
+}
+

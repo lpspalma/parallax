@@ -1,0 +1,108 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Minha primeira página com efeito Parallax</title>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/script.js"></script>
+<link rel="stylesheet" href="css/estilo.css">
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" >
+<link rel="stylesheet" href="js/slick/slick-theme.css">
+<link rel="stylesheet" href="js/slick/slick.css">
+</head>
+
+<body>
+	
+	<section id="home" class="bgparallax">
+		<h1 class="titulohome">Olá eu sou o Lucas Palma</h1>
+		<h2 class="subtitulohome">Web Design - Front End - Back End - Ux Design - Social Media</h2>
+	</section>
+	<header>
+		<nav>
+			<a href="#" id="pag1">Home</a>
+			<a href="#" id="pag2">Sobre</a>
+			<a href="#" id="pag3">Habilidades</a>
+			<a href="#" id="pag4">Portifólio</a>
+			<a href="#" id="pag5">Contatos</a>
+		</nav>
+	
+	</header>
+	<section id="sobre" class="bgparallax">
+		<h1 class="tituloprincipal">Conheça-me</h1>
+		<img src="imagens/about.jpg" class="imgsobre"	alt="">
+		<p class="paragrafo">
+			
+			Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta di mim que vai caçá sua turmis! Detraxit consequat et quo num tendi nada. Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta di mim que vai caçá sua turmis! Detraxit consequat et quo num tendi nada. Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.
+		</p>
+	</section>
+	<section id="habilidades" class="bgparallax">
+	<h1 class="tituloprincipal">Habilidades</h1>
+	<p class="html5">95%</p>
+	<p class="texthtml5"> HTML5</p>
+	<p class="css3">90%</p>
+	<p class="textcss3"> CSS3</p>	
+	<p class="jquery">70%</p>
+	<p class="textjquery"> JQUERY</p>
+	<p class="front">85%</p>
+	<p class="textfront"> FRONT END</p>	
+	<p class="photoshop">95%</p>
+	<p class="textphotoshop"> PHOTOSHOP</p>
+	<p class="illustrator">95%</p>
+	<p class="textillustrator"> ILLUSTRATOR</p>
+	</section>
+	<section id="portifolio" class="bgparallax">
+		<h1 class="tituloprincipal">Portifólio</h1>
+		<div class="galeria">
+			<div class="slides">
+				<div><img src="imagens/01-large.jpg" alt=""></div>
+				<div><img src="imagens/02-large.jpg" alt=""></div>
+				<div><img src="imagens/03-large.jpg" alt=""></div>
+				<div><img src="imagens/04-large.jpg" alt=""></div>
+				<div><img src="imagens/05-large.jpg" alt=""></div>
+				<div><img src="imagens/06-large.jpg" alt=""></div>
+				<div><img src="imagens/07-large.jpg" alt=""></div>
+				<div><img src="imagens/08-large.jpg" alt=""></div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="contatos" class="bgparallax">
+		<h1 class="tituloprincipal">Contatos</h1>
+		<div class="formulario">
+			<form>
+				<input type="text" placeholder="NOME" required class="campo">
+				<input type="email" placeholder="E-MAIL" required class="campo">
+				<input type="text" placeholder="ASSUNTO" required class="campo">
+				<textarea placeholder="MENSAGEM" name="" id="" cols="30" rows="7" class="campo"></textarea >
+				<input type="submit" value="ENTRAR EM CONTATO" class="botao">
+			</form>
+		</div>
+		<div class="mapa">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.1056317007747!2d-49.27807258539976!3d-25.43473178378625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce472f8f33c21%3A0x4a111b53656feff2!2sCD6+Centro+de+Desenvolvimento+Tecnol%C3%B3gico!5e0!3m2!1spt-BR!2sbr!4v1526947074202" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+	</section>
+	<footer>
+		<i class="fa fa-facebook-square"></i>
+		<i class="fa fa-twitter-square"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-linkedin-square"></i>
+		<p style="float: right; margin: 0;">
+			Desenvolvido por <i>Lucas Palma</i> | Copy Right &copy; - Todos os direitos reservados - 2018
+		</p>
+	</footer>
+	<!as imagens devem ser carregadas anteriormente, isso aqui é para animar a galeria>
+	<script src="js/slick/slick.min.js"></script>
+		<script>
+				$(document).ready(function(){
+				$(".slides").slick({
+				  slidesToShow: 4,
+				  slidesToScroll: 1,
+				  autoplay: true,
+				  autoplaySpeed:2000,
+					dots:true
+				})
+			})
+			
+		</script>
+</body>
+</html>
